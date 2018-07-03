@@ -1,0 +1,20 @@
+// $success:  #5cb85c !default;
+// $warning: #f0ad4e !default;
+//
+// PAGINATION
+// .pagination > li > a {color:#5cb85c}
+// .pagination > li.active > a {background-color:#5cb85c}
+
+
+
+// MEDIA QUERIES
+@media(max-width:576px) {
+  nav .container{
+    width: 100%; // so the hamburger icon won't overlay the navbrand
+    // margin: 5px 0;
+  }
+
+  .navbar-toggler {
+    margin-right: 10px;
+  }
+}
